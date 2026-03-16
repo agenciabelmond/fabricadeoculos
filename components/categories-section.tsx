@@ -10,14 +10,14 @@ const categories = [
     number: "01",
     title: "FEMININO",
     description: "Armações sofisticadas que realçam sua personalidade",
-    image: "/images/woman-glasses.jpg",
+    image: "\womenglasses.jpeg",
   },
   {
     id: "masculino",
     number: "02",
     title: "MASCULINO",
     description: "Design moderno para homens que valorizam estilo",
-    image: "/images/man-glasses.jpg",
+    image: "\menglasses.jpeg",
   },
   {
     id: "infantil",

@@ -40,9 +40,9 @@ export function ContactSection() {
                   </p>
 
                   <p className="text-white/70 text-sm md:text-base">
-                    Av. Brasil, 1500 - Centro
+                    Aa Rua Da Matriz, - Centro
                     <br />
-                    São Paulo - SP, 01310-100
+                    São João de Meriti - RJ, 25520-640
                   </p>
                 </div>
               </div>
@@ -59,9 +59,8 @@ export function ContactSection() {
                   </p>
 
                   <p className="text-white/70 text-sm md:text-base">
-                    (11) 99999-9999
+                    (99) 99999-9999
                     <br />
-                    (11) 3333-3333
                   </p>
                 </div>
               </div>
@@ -111,16 +110,16 @@ export function ContactSection() {
 
               <div className="border-2 border-[#C9A227] rounded-xl overflow-hidden shadow-lg">
 
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975978674!2d-46.65390682374868!3d-23.56510006176461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1709825244789!5m2!1spt-BR!2sbr"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0, minHeight: "420px" }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="grayscale hover:grayscale-0 transition-all duration-500"
-                />
+<iframe
+  src="https://www.google.com/maps?q=Rua%20da%20Matriz%2C%20Centro%2C%20S%C3%A3o%20Jo%C3%A3o%20de%20Meriti%20-%20RJ%2C%2025520-640&output=embed"
+  width="100%"
+  height="100%"
+  style={{ border: 0, minHeight: "420px" }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  className="transition-all duration-500"
+/>
 
               </div>
 

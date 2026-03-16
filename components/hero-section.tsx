@@ -14,19 +14,21 @@ export function HeroSection() {
   return (
     <section className="relative min-h-screen bg-black overflow-hidden">
 
-      {/* Glow dourado mais sutil */}
+      {/* Glow dourado */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#C9A227]/5 blur-[200px] pointer-events-none"/>
-
-      {/* Marquee */}
-      <div className="absolute top-16 md:top-20 left-0 right-0 bg-gradient-to-r from-[#C9A227] via-[#E5C76B] to-[#C9A227] py-2.5 overflow-hidden z-20">
-        <div className="flex animate-[marquee_14s_linear_infinite] whitespace-nowrap">
-          {[...Array(10)].map((_, i) => (
-            <span key={i} className="mx-8 text-sm font-semibold text-black tracking-widest">
-              ÓCULOS PRONTOS EM 1 HORA
-            </span>
-          ))}
-        </div>
-      </div>
+{/* Marquee */}
+<div className="absolute top-16 md:top-20 left-0 right-0 bg-gradient-to-r from-[#C9A227] via-[#E5C76B] to-[#C9A227] py-2.5 overflow-hidden z-20">
+  <div className="flex animate-[marquee_25s_linear_infinite] whitespace-nowrap">
+    {[...Array(12)].map((_, i) => (
+      <span
+        key={i}
+        className="mx-10 text-sm font-semibold text-black tracking-widest"
+      >
+        ÓCULOS PRONTOS EM 1 HORA
+      </span>
+    ))}
+  </div>
+</div>
 
       <div className="relative z-10 container mx-auto px-8 sm:px-10 md:px-6 pt-28 md:pt-32 pb-12 min-h-screen flex flex-col justify-center">
 
@@ -71,13 +73,12 @@ export function HeroSection() {
           {/* RIGHT */}
           <div className="relative h-[450px] sm:h-[520px] lg:h-[620px] flex items-center justify-center">
 
-            {/* Container da imagem */}
             <div className="relative w-[90%] h-[85%] rounded-xl border border-[#C9A227]/40 p-[3px]">
 
               <div className="relative w-full h-full overflow-hidden rounded-lg shadow-2xl">
 
                 <Image
-                  src="/images/hero-glasses.jpg"
+                  src="/katemoss.jpg"
                   alt="Mulher usando óculos modernos"
                   fill
                   className="object-cover"

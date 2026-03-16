@@ -126,12 +126,28 @@
 }
 
 @keyframes marquee {
-  0% {
+  from {
     transform: translateX(0);
   }
-  100% {
+  to {
     transform: translateX(-50%);
   }
+}
+
+.animate-marquee {
+  animation: marquee linear infinite;
+}
+
+@keyframes marqueeFast {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.animate-marquee-fast {
+  animation: marqueeFast linear infinite;
 }
 
 html {
